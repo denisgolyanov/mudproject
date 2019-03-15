@@ -1,0 +1,14 @@
+{
+    "defaultGatewayConfig": {
+        "macAddress" : "f4:f2:6d:57:79:8e",
+        "ipAddress": "192.168.1.1",
+        "ipv6Address": "fe80::f6f2:6dff:fe57:798e"
+    },
+
+    "deviceConfig":{
+        "device":"44:07:0b:e2:3f:f1",
+        "deviceName": "GoogleHomeMini"
+    },
+
+    "pcapLocation": "C:\Users\Daniel\Documents\IDC CS MSc\Advanced Topics in IP Networks\Project\GoogleHome.pcap"
+}

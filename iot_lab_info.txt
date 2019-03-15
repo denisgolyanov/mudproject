@@ -1,0 +1,8 @@
+GW password 1-51-5
+
+GW IP 192.168.1.1 (on another interface it's 10.0.0.103)
+GW MAC f4:f2:6d:57:79:8e
+GW IPv6 fd2b:78ed:64dd::1/60 Scope:Global
+GW IPv6 fe80::f6f2:6dff:fe57:798e/64 Scope:Link
+
+tcpdump -pni br-lan -s 0 -vvv -C 50 -w "/mnt/usb/mud_project/sniff.pcap" -W 300 "not ether host 84:3A:4B:13:82:24"
